@@ -1,0 +1,39 @@
+root@DESKTOP-LTPV7VE:/home/amato/Uni/ASOR/2.3# ps -eo args,pid,pgid,sid,state,session
+COMMAND                       PID  PGID   SID S  SESS
+/init                           1     0     0 S     0
+plan9 --control-socket 5 --     4     0     0 S     0
+/init                          12    12    12 S    12
+/init                          13    12    12 S    12
+sh -c "$VSCODE_WSL_EXT_LOCA    14    14    14 S    14
+sh /mnt/c/Users/migue/.vsco    15    14    14 S    14
+sh /home/amato/.vscode-serv    20    14    14 S    14
+/home/amato/.vscode-server/    24    14    14 S    14
+/init                          35    35    35 S    35
+/init                          36    35    35 S    35
+/home/amato/.vscode-server/    37    37    37 S    37
+/init                          44    44    44 S    44
+/init                          45    44    44 S    44
+/home/amato/.vscode-server/    46    14    14 R    14
+/home/amato/.vscode-server/    47    47    47 S    47
+/home/amato/.vscode-server/    73    14    14 S    14
+/home/amato/.vscode-server/   148    14    14 S    14
+/bin/bash --init-file /home   202   202   202 S   202
+/home/amato/.vscode-server/   219    14    14 S    14
+/home/amato/.vscode-server/   278    14    14 S    14
+/bin/bash --init-file /home   929   929   929 S   929
+/bin/bash --init-file /home  1861  1861  1861 S  1861
+sleep 10210391               1920  1920  1861 S  1861
+bash                         2147  2147   202 S   202
+sudo -i                      2241  2241   202 S   202
+-bash                        2242  2242   202 S   202
+bash                         2292  2292   202 S   202
+bash                         2405  2405   202 S   202
+bash                         2527  2527   202 S   202
+/bin/bash --init-file /home  4749  4749  4749 S  4749
+/home/amato/.vscode-server/  4861    14    14 S    14
+sudo -i                      4962  4962  4749 S  4749
+-bash                        4981  4981  4749 S  4749
+/home/amato/.vscode-server/  6098    14    14 S    14
+man ps                       6230  6230   929 S   929
+pager                        6240  6230   929 S   929
+ps -eo args,pid,pgid,sid,st  8806  8806   202 R   202
