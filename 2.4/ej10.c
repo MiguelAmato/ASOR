@@ -18,15 +18,11 @@ int main(int argc, char *argv[]) {
 	FD_SET(fd1, &set);
 	FD_SET(fd2, &set);
 
-	int max = fd1;
-	if (fd2 > max)
-		max = fd2;
-	
 	while (1) {
 		FD_ZERO(&set);
 		FD_SET(fd1, &set);
 		FD_SET(fd2, &set);
-		int retval = select(max + 1, &set, 0, 0, 0);
+		int retval = select(fd2 + 1, &set, 0, 0, 0);
 		if (retval == -1) {
 			perror("select");
 			return 1;
